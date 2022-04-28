@@ -1,0 +1,14 @@
+read(argc);
+
+argc = FUN(argc) {
+
+    x = 1;
+    If (x + 1) {
+        x = 2;
+    }
+
+    return x;
+
+}
+
+write(argc);

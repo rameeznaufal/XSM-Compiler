@@ -1,0 +1,11 @@
+read (argc);
+argc = FUN(argc) {
+   a = 1;
+   b = 3;
+   c = 4 + 2;
+   If (a == b) { c = c + 8; } else { c = c * 5;}
+   c = a + 3;
+   If ( c != 0 ) { If (a*b > 50) { return 6;} return 1; }
+   return (c - (5 * 1) ) * 5;
+}
+write(argc);
